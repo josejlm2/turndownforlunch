@@ -33,7 +33,7 @@
                     <a class="popoverData" class="btn" href="#" data-template='<div class="popover" role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>' style="white-space:pre-wrap;" data-content= "James Bond \n Jonathan Miles" rel="popover" data-placement="right" data-original-title="People That Voted" data-trigger="hover"><%= suggestion.votes %></a>
                     <% if current_user %>
                       <%= link_to vote_up_suggestion_path(suggestion), :class => "btn btn-mini btn-primary", :title => "Vote" do %>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
+                        <i class="fa fa-thumbs-up">Vote</i>
                       <% end %>
                     <% else %>
                     <% end %>
